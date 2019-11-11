@@ -19,7 +19,7 @@ import javax.validation.Valid;
  */
 @Controller
 @RequestMapping("cheese")
-public class CheeseController {
+public class CategoryController {
 
     @Autowired
     private CheeseDao cheeseDao;
